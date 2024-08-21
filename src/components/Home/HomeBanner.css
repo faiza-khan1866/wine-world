@@ -1,0 +1,22 @@
+.home-banner {
+  padding-top: 120px;
+}
+
+.home-banner__image {
+  object-fit: cover;
+  width: 100%;
+}
+
+@media screen and (min-width: 1440px) and (max-width: 1920px) {
+  .home-banner__carousel,
+  .home-banner__image {
+    height: 600px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .home-banner__carousel,
+  .home-banner__image {
+    height: auto;
+  }
+}

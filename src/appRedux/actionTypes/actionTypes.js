@@ -1,0 +1,33 @@
+// cart actions
+export const ADD_ITEM = "ADD_ITEM";
+export const GET_CART_ITEM = "GET_CART_ITEM";
+export const DELETE_ITEM = "DELETE_ITEM";
+export const UPDATE_ITEM = "UPDATE_ITEM";
+export const UPDATE_STOCK_ITEM = "UPDATE_STOCK_ITEM";
+export const CLEAR_ITEMS = "CLEAR_ITEMS";
+export const EXPIRE_ITEMS_UPDATE = "EXPIRE_ITEMS_UPDATE";
+export const COUPON_CODE = "COUPON_CODE";
+export const BANNER_LOCATION_DATA = "BANNER_LOCATION_DATA";
+
+// wishlist actions
+export const ADD_WISHLIST_ITEM = "ADD_WISHLIST_ITEM";
+export const GET_WISHLIST_ITEM = "GET_WISHLIST_ITEM";
+export const DELETE_WISHLIST_ITEM = "DELETE_WISHLIST_ITEM";
+export const CLEAR_WISHLIST = "CLEAR_WISHLIST";
+
+// user action
+export const VERIFY_USER = "VERIFY_USER";
+export const CLEAR_VERIFY_USER = "CLEAR_VERIFY_USER";
+export const LOG_IN = "LOG_IN";
+export const LOG_OUT = "LOG_OUT";
+export const USER_INFO = "USER_INFO";
+export const GOOGLE_LOG_IN = "GOOGLE_LOG_IN";
+export const FACEBOOK_LOGIN = "FACEBOOK_LOGIN";
+
+// Pop Up actions
+export const SHOW_LOGIN_POPUP = "SHOW_LOGIN_POPUP";
+export const SHOW_REGISTER_POPUP = "SHOW_REGISTER_POPUP";
+export const SHOW_FORGET_PASSWORD_POPUP = "SHOW_FORGET_PASSWORD_POPUP";
+export const SHOW_VERIFY_ACCOUNT_POPUP = "SHOW_VERIFY_ACCOUNT_POPUP";
+export const SHOW_AGE_POPUP = "SHOW_AGE_POPUP";
+export const AGE_POPUP_VALUE = "AGE_POPUP_VALUE";
